@@ -1,0 +1,430 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dk_Interface-Controllers:FT230XS-R U?
+U 1 1 5F0D5233
+P 8800 3500
+F 0 "U?" H 8800 4650 50  0000 C CNN
+F 1 "FT230XS-R" H 8800 4550 50  0000 C CNN
+F 2 "digikey-footprints:SOIC-16_W3.90mm" H 9000 3700 60  0001 L CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 9000 3800 60  0001 L CNN
+F 4 "768-1135-1-ND" H 9000 3900 60  0001 L CNN "Digi-Key_PN"
+F 5 "FT230XS-R" H 9000 4000 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 9000 4100 60  0001 L CNN "Category"
+F 7 "Interface - Controllers" H 9000 4200 60  0001 L CNN "Family"
+F 8 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 9000 4300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT230XS-R/768-1135-1-ND/3029155" H 9000 4400 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC USB SERIAL BASIC UART 16SSOP" H 9000 4500 60  0001 L CNN "Description"
+F 11 "FTDI, Future Technology Devices International Ltd" H 9000 4600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9000 4700 60  0001 L CNN "Status"
+	1    8800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F0D792A
+P 8500 4300
+F 0 "#PWR?" H 8500 4050 50  0001 C CNN
+F 1 "GND" H 8505 4127 50  0000 C CNN
+F 2 "" H 8500 4300 50  0001 C CNN
+F 3 "" H 8500 4300 50  0001 C CNN
+	1    8500 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4100 8500 4200
+Wire Wire Line
+	8600 4100 8600 4200
+Wire Wire Line
+	8600 4200 8500 4200
+Connection ~ 8500 4200
+Wire Wire Line
+	8500 4200 8500 4300
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5F0D8061
+P 1900 3500
+F 0 "J?" H 1957 3967 50  0000 C CNN
+F 1 "USB_B_Micro" H 1957 3876 50  0000 C CNN
+F 2 "" H 2050 3450 50  0001 C CNN
+F 3 "~" H 2050 3450 50  0001 C CNN
+	1    1900 3500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1800 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5F0D94E6
+P 1900 4100
+F 0 "#PWR?" H 1900 3850 50  0001 C CNN
+F 1 "GND" H 1905 3927 50  0000 C CNN
+F 2 "" H 1900 4100 50  0001 C CNN
+F 3 "" H 1900 4100 50  0001 C CNN
+	1    1900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3900 1900 4100
+$Comp
+L power:+5V #PWR?
+U 1 1 5F0D9CB5
+P 3750 3300
+F 0 "#PWR?" H 3750 3150 50  0001 C CNN
+F 1 "+5V" V 3765 3428 50  0000 L CNN
+F 2 "" H 3750 3300 50  0001 C CNN
+F 3 "" H 3750 3300 50  0001 C CNN
+	1    3750 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 3300 2450 3300
+NoConn ~ 2200 3700
+Wire Wire Line
+	2200 3600 2650 3600
+Text Label 2350 3500 0    50   ~ 0
+DP
+Text Label 2350 3600 0    50   ~ 0
+DM
+Text Label 7650 3050 0    50   ~ 0
+DM
+Text Label 7350 3400 0    50   ~ 0
+DP
+$Comp
+L arduino_symbols:C C?
+U 1 1 5F0DB385
+P 2450 3150
+F 0 "C?" H 2565 3196 50  0000 L CNN
+F 1 "10nF" H 2565 3105 50  0000 L CNN
+F 2 "" H 2488 3000 50  0001 C CNN
+F 3 "~" H 2450 3150 50  0001 C CNN
+	1    2450 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 3300
+$Comp
+L arduino_symbols:C C?
+U 1 1 5F0DC216
+P 2650 3750
+F 0 "C?" H 2765 3796 50  0000 L CNN
+F 1 "47pF" H 2765 3705 50  0000 L CNN
+F 2 "" H 2688 3600 50  0001 C CNN
+F 3 "~" H 2650 3750 50  0001 C CNN
+	1    2650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3500 3050 3500
+$Comp
+L power:GND #PWR?
+U 1 1 5F0DCF07
+P 2450 2850
+F 0 "#PWR?" H 2450 2600 50  0001 C CNN
+F 1 "GND" H 2455 2677 50  0000 C CNN
+F 2 "" H 2450 2850 50  0001 C CNN
+F 3 "" H 2450 2850 50  0001 C CNN
+	1    2450 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 3000 2450 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5F0DD5A0
+P 2650 4100
+F 0 "#PWR?" H 2650 3850 50  0001 C CNN
+F 1 "GND" H 2655 3927 50  0000 C CNN
+F 2 "" H 2650 4100 50  0001 C CNN
+F 3 "" H 2650 4100 50  0001 C CNN
+	1    2650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F0DD9F1
+P 3050 4100
+F 0 "#PWR?" H 3050 3850 50  0001 C CNN
+F 1 "GND" H 3055 3927 50  0000 C CNN
+F 2 "" H 3050 4100 50  0001 C CNN
+F 3 "" H 3050 4100 50  0001 C CNN
+	1    3050 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3800 3050 4100
+Wire Wire Line
+	2650 3900 2650 4100
+$Comp
+L arduino_symbols:C C?
+U 1 1 5F0DE0BE
+P 3050 3650
+F 0 "C?" H 3165 3696 50  0000 L CNN
+F 1 "47pF" H 3165 3605 50  0000 L CNN
+F 2 "" H 3088 3500 50  0001 C CNN
+F 3 "~" H 3050 3650 50  0001 C CNN
+	1    3050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduino_symbols:C C?
+U 1 1 5F0DE501
+P 6850 5350
+F 0 "C?" H 6965 5396 50  0000 L CNN
+F 1 "100nF" H 6965 5305 50  0000 L CNN
+F 2 "" H 6888 5200 50  0001 C CNN
+F 3 "~" H 6850 5350 50  0001 C CNN
+	1    6850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduino_symbols:C C?
+U 1 1 5F0DED1B
+P 7300 5350
+F 0 "C?" H 7415 5396 50  0000 L CNN
+F 1 "4.7uF" H 7415 5305 50  0000 L CNN
+F 2 "" H 7338 5200 50  0001 C CNN
+F 3 "~" H 7300 5350 50  0001 C CNN
+	1    7300 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F0DF067
+P 7100 4950
+F 0 "#PWR?" H 7100 4800 50  0001 C CNN
+F 1 "+5V" H 7115 5123 50  0000 C CNN
+F 2 "" H 7100 4950 50  0001 C CNN
+F 3 "" H 7100 4950 50  0001 C CNN
+	1    7100 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 5200 6850 5050
+Wire Wire Line
+	6850 5050 7100 5050
+Wire Wire Line
+	7300 5050 7300 5200
+Wire Wire Line
+	7100 4950 7100 5050
+Connection ~ 7100 5050
+Wire Wire Line
+	7100 5050 7300 5050
+$Comp
+L power:GND #PWR?
+U 1 1 5F0DFC30
+P 7100 5700
+F 0 "#PWR?" H 7100 5450 50  0001 C CNN
+F 1 "GND" H 7105 5527 50  0000 C CNN
+F 2 "" H 7100 5700 50  0001 C CNN
+F 3 "" H 7100 5700 50  0001 C CNN
+	1    7100 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 5500 6850 5600
+Wire Wire Line
+	6850 5600 7100 5600
+Wire Wire Line
+	7300 5600 7300 5500
+Wire Wire Line
+	7100 5600 7100 5700
+Connection ~ 7100 5600
+Wire Wire Line
+	7100 5600 7300 5600
+Text Notes 6850 4650 0    50   ~ 0
+FTDI FILTERING\n
+$Comp
+L power:+5V #PWR?
+U 1 1 5F0E1AF5
+P 9150 3000
+F 0 "#PWR?" H 9150 2850 50  0001 C CNN
+F 1 "+5V" H 9165 3173 50  0000 C CNN
+F 2 "" H 9150 3000 50  0001 C CNN
+F 3 "" H 9150 3000 50  0001 C CNN
+	1    9150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5F0E3275
+P 3250 3300
+F 0 "FB?" V 3013 3300 50  0000 C CNN
+F 1 "600 OHM @100MHz" V 3104 3300 50  0000 C CNN
+F 2 "" V 3180 3300 50  0001 C CNN
+F 3 "~" H 3250 3300 50  0001 C CNN
+	1    3250 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 3300 3350 3300
+Wire Wire Line
+	2450 3300 3150 3300
+$Comp
+L Device:R_US R?
+U 1 1 5F0E542D
+P 7950 3300
+F 0 "R?" V 7745 3300 50  0000 C CNN
+F 1 "27OHM" V 7836 3300 50  0000 C CNN
+F 2 "" V 7990 3290 50  0001 C CNN
+F 3 "~" H 7950 3300 50  0001 C CNN
+	1    7950 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8300 3300 8100 3300
+$Comp
+L Device:R_US R?
+U 1 1 5F0E6DA9
+P 7650 3400
+F 0 "R?" V 7445 3400 50  0000 C CNN
+F 1 "27OHM" V 7536 3400 50  0000 C CNN
+F 2 "" V 7690 3390 50  0001 C CNN
+F 3 "~" H 7650 3400 50  0001 C CNN
+	1    7650 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8300 3400 7800 3400
+Wire Wire Line
+	7800 3300 7800 3050
+Wire Wire Line
+	7800 3050 7500 3050
+Wire Wire Line
+	7250 3400 7500 3400
+$Comp
+L arduino_symbols:C C?
+U 1 1 5F0F035F
+P 9950 3650
+F 0 "C?" H 10065 3696 50  0000 L CNN
+F 1 "100nF" H 10065 3605 50  0000 L CNN
+F 2 "" H 9988 3500 50  0001 C CNN
+F 3 "~" H 9950 3650 50  0001 C CNN
+	1    9950 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 2850 8800 3100
+Wire Wire Line
+	8900 3100 8900 3000
+Wire Wire Line
+	8900 3000 9150 3000
+Text HLabel 7850 3700 0    50   Input ~ 0
+TXD
+Text HLabel 9750 3300 2    50   Input ~ 0
+RXD
+Wire Wire Line
+	9300 3300 9750 3300
+Wire Wire Line
+	7850 3700 8300 3700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F0F3266
+P 8800 2850
+F 0 "#PWR?" H 8800 2700 50  0001 C CNN
+F 1 "+3.3V" H 8815 3023 50  0000 C CNN
+F 2 "" H 8800 2850 50  0001 C CNN
+F 3 "" H 8800 2850 50  0001 C CNN
+	1    8800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F0F3ACA
+P 10100 3500
+F 0 "#PWR?" H 10100 3350 50  0001 C CNN
+F 1 "+3.3V" V 10115 3628 50  0000 L CNN
+F 2 "" H 10100 3500 50  0001 C CNN
+F 3 "" H 10100 3500 50  0001 C CNN
+	1    10100 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F0F4572
+P 8050 3500
+F 0 "#PWR?" H 8050 3350 50  0001 C CNN
+F 1 "+3.3V" V 8065 3628 50  0000 L CNN
+F 2 "" H 8050 3500 50  0001 C CNN
+F 3 "" H 8050 3500 50  0001 C CNN
+	1    8050 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 3500 8050 3500
+Wire Wire Line
+	9300 3500 9950 3500
+Wire Wire Line
+	10100 3500 9950 3500
+Connection ~ 9950 3500
+$Comp
+L power:GND #PWR?
+U 1 1 5F0F6EFE
+P 9950 3900
+F 0 "#PWR?" H 9950 3650 50  0001 C CNN
+F 1 "GND" H 9955 3727 50  0000 C CNN
+F 2 "" H 9950 3900 50  0001 C CNN
+F 3 "" H 9950 3900 50  0001 C CNN
+	1    9950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3800 9950 3900
+$Comp
+L Device:LED D?
+U 1 1 5F0F7A19
+P 9550 4800
+F 0 "D?" V 9497 4880 50  0000 L CNN
+F 1 "LED" V 9588 4880 50  0000 L CNN
+F 2 "" H 9550 4800 50  0001 C CNN
+F 3 "~" H 9550 4800 50  0001 C CNN
+	1    9550 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F0F8458
+P 9550 4350
+F 0 "R?" H 9482 4304 50  0000 R CNN
+F 1 "270 OHM" H 9482 4395 50  0000 R CNN
+F 2 "" V 9590 4340 50  0001 C CNN
+F 3 "~" H 9550 4350 50  0001 C CNN
+	1    9550 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9300 3900 9550 3900
+Wire Wire Line
+	9550 3900 9550 4200
+Wire Wire Line
+	9550 4500 9550 4650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F0FA05B
+P 9550 5250
+F 0 "#PWR?" H 9550 5100 50  0001 C CNN
+F 1 "+3.3V" H 9565 5423 50  0000 C CNN
+F 2 "" H 9550 5250 50  0001 C CNN
+F 3 "" H 9550 5250 50  0001 C CNN
+	1    9550 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 4950 9550 5250
+NoConn ~ 9300 3400
+NoConn ~ 9300 3600
+NoConn ~ 9300 3700
+NoConn ~ 9300 3800
+NoConn ~ 8300 3600
+$EndSCHEMATC
