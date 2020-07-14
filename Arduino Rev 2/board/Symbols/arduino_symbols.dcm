@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10103594-0001LF
+D CONN RCPT USB2.0 MICRO B SMD R/A
+K 609-4050-1-ND
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
+$ENDCMP
+#
 $CMP ATMEGA328-AU
 D IC MCU 8BIT 32KB FLASH 32TQFP
 K ATMEGA328-AU-ND AVR® ATmega
@@ -12,9 +18,57 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP Conn_01x12_Female
+D Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Crystal_GND24
 D Four pin crystal, GND on pins 2 and 4
 K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP FT231XS-U
+D IC USB SERIAL FULL UART 20SSOP
+K 768-1156-5-ND USBmadeEZ-UART, FT-X, X-Chip
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
+$ENDCMP
+#
+$CMP Ferrite_Bead_Small
+D Ferrite bead, small symbol
+K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
+$CMP GPTS203211B
+D SWITCH PUSHBUTTON SPST 1A 30V
+K CW181-ND GPTS
+F http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP R_US
+D Resistor, US symbol
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
 F ~
 $ENDCMP
 #

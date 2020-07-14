@@ -1,0 +1,64 @@
+14352369971000
+Arduino Rev 2
+C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Arduino Rev 2
+ECS-160-20-30B-AGL-TR
+
+
+0
+4
+4
+Arduino Rev 2
+PinHeader_1x12_P2.54mm_Vertical
+Through hole straight pin header, 1x12, 2.54mm pitch, single row
+Through hole pin header THT 1x12 2.54mm single row
+0
+12
+12
+Arduino Rev 2
+R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Arduino Rev 2
+SSOP-20_W3.9mm
+http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
+
+0
+20
+20
+Arduino Rev 2
+TQFP-32_7x7mm
+http://www.atmel.com/Images/Atmel-8826-SEEPROM-PCB-Mounting-Guidelines-Surface-Mount-Packages-ApplicationNote.pdf
+
+0
+32
+32
+Arduino Rev 2
+USB_Micro_B_Female_10103594-0001LF
+https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
+
+0
+13
+6
+Arduino Rev 2
+button
+
+
+0
+2
+2
+Arduino Rev 2
+led
+
+
+0
+2
+2
