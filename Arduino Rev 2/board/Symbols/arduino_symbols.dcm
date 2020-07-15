@@ -18,8 +18,20 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP CP
+D Polarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
 $CMP Conn_01x12_Female
 D Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x13_Female
+D Generic connector, single row, 01x13, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
 $ENDCMP

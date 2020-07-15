@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -45,7 +45,7 @@ F 3 "" H 2550 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 3850 2550 4050
+	2550 3850 2550 4000
 $Comp
 L power:+5V #PWR0405
 U 1 1 5F0D9CB5
@@ -63,13 +63,13 @@ NoConn ~ 2550 3750
 Wire Wire Line
 	2550 3650 3000 3650
 Text Label 2700 3650 0    50   ~ 0
-DP
+D+
 Text Label 2700 3550 0    50   ~ 0
-DM
+D-
 Text Label 7350 2650 0    50   ~ 0
-DM
+D-
 Text Label 7050 3000 0    50   ~ 0
-DP
+D+
 $Comp
 L arduino_symbols:C C401
 U 1 1 5F0DB385
@@ -270,10 +270,10 @@ Wire Wire Line
 Wire Wire Line
 	6950 3000 7200 3000
 $Comp
-L arduino_symbols:C e401
+L arduino_symbols:C C407
 U 1 1 5F0F035F
 P 9700 3350
-F 0 "e401" H 9815 3396 50  0000 L CNN
+F 0 "C407" H 9815 3396 50  0000 L CNN
 F 1 "100nF" H 9815 3305 50  0000 L CNN
 F 2 "Arduino Rev 2:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9738 3200 50  0001 C CNN
 F 3 "~" H 9700 3350 50  0001 C CNN
@@ -409,10 +409,8 @@ Wire Wire Line
 	7750 3100 8000 3100
 Wire Wire Line
 	8800 3200 9700 3200
-Text HLabel 9250 3500 2    50   Input ~ 0
+Text HLabel 9400 3500 2    50   Input ~ 0
 DTR
-Wire Wire Line
-	8800 3500 9250 3500
 Wire Wire Line
 	7750 3900 8000 3900
 NoConn ~ 8000 3300
@@ -424,10 +422,10 @@ NoConn ~ 8000 3800
 NoConn ~ 8000 4000
 NoConn ~ 8800 3400
 $Comp
-L power:PWR_FLAG #FLG0401
+L power:PWR_FLAG #FLG0402
 U 1 1 5F0E1839
 P 3950 3450
-F 0 "#FLG0401" H 3950 3525 50  0001 C CNN
+F 0 "#FLG0402" H 3950 3525 50  0001 C CNN
 F 1 "PWR_FLAG" H 3950 3623 50  0000 C CNN
 F 2 "" H 3950 3450 50  0001 C CNN
 F 3 "~" H 3950 3450 50  0001 C CNN
@@ -438,10 +436,10 @@ Connection ~ 3950 3450
 Wire Wire Line
 	3950 3450 3700 3450
 $Comp
-L power:PWR_FLAG #FLG0402
+L power:PWR_FLAG #FLG0403
 U 1 1 5F0E1D22
 P 9700 3200
-F 0 "#FLG0402" H 9700 3275 50  0001 C CNN
+F 0 "#FLG0403" H 9700 3275 50  0001 C CNN
 F 1 "PWR_FLAG" H 9700 3373 50  0000 C CNN
 F 2 "" H 9700 3200 50  0001 C CNN
 F 3 "~" H 9700 3200 50  0001 C CNN
@@ -469,4 +467,37 @@ F 12 "Active" H 2500 4850 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2150 4250
+$Comp
+L power:PWR_FLAG #FLG0401
+U 1 1 5F0F6831
+P 2550 4000
+F 0 "#FLG0401" H 2550 4075 50  0001 C CNN
+F 1 "PWR_FLAG" V 2550 4128 50  0000 L CNN
+F 2 "" H 2550 4000 50  0001 C CNN
+F 3 "~" H 2550 4000 50  0001 C CNN
+	1    2550 4000
+	0    1    1    0   
+$EndComp
+Connection ~ 2550 4000
+Wire Wire Line
+	2550 4000 2550 4050
+Text Label 7800 3000 0    50   ~ 0
+d2+
+Text Label 7800 2900 0    50   ~ 0
+d2-
+$Comp
+L arduino_symbols:C C406
+U 1 1 5F118027
+P 9100 3500
+F 0 "C406" V 9350 3500 50  0000 C CNN
+F 1 "100 nF" V 9250 3500 50  0000 C CNN
+F 2 "Arduino Rev 2:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9138 3350 50  0001 C CNN
+F 3 "~" H 9100 3500 50  0001 C CNN
+	1    9100 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8800 3500 8950 3500
+Wire Wire Line
+	9250 3500 9400 3500
 $EndSCHEMATC

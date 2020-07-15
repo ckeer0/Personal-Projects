@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10103594-0001LF
+D CONN RCPT USB2.0 MICRO B SMD R/A
+K 609-4050-1-ND
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
+$ENDCMP
+#
 $CMP ATMEGA328-AU
 D IC MCU 8BIT 32KB FLASH 32TQFP
 K ATMEGA328-AU-ND AVR® ATmega
@@ -8,6 +14,12 @@ $ENDCMP
 #
 $CMP C
 D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CP
+D Polarized capacitor
 K cap capacitor
 F ~
 $ENDCMP
