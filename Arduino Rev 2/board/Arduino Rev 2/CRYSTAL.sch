@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -57,6 +57,7 @@ F 0 "C302" H 6365 3696 50  0000 L CNN
 F 1 "22pF" H 6365 3605 50  0000 L CNN
 F 2 "Arduino Rev 2:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6288 3500 50  0001 C CNN
 F 3 "~" H 6250 3650 50  0001 C CNN
+F 4 "CC0603JRNPO9BN220" H 6250 3650 50  0001 C CNN "Digikey"
 	1    6250 3650
 	1    0    0    -1  
 $EndComp
@@ -68,6 +69,7 @@ F 0 "C301" H 5465 3696 50  0000 L CNN
 F 1 "22pF" H 5465 3605 50  0000 L CNN
 F 2 "Arduino Rev 2:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5388 3500 50  0001 C CNN
 F 3 "~" H 5350 3650 50  0001 C CNN
+F 4 "CC0603JRNPO9BN220" H 5350 3650 50  0001 C CNN "Digikey"
 	1    5350 3650
 	1    0    0    -1  
 $EndComp

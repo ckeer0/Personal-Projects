@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -21,7 +21,7 @@ F 0 "S501" H 5850 4175 50  0000 C CNN
 F 1 "GPTS203211B" H 5850 4084 50  0000 C CNN
 F 2 "Arduino Rev 2:button" H 6050 4100 50  0001 L CNN
 F 3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 6050 4200 60  0001 L CNN
-F 4 "CW181-ND" H 6050 4300 60  0001 L CNN "Digi-Key_PN"
+F 4 "KSR223GLFG" H 6050 4300 60  0001 L CNN "Digi-Key_PN"
 F 5 "GPTS203211B" H 6050 4400 60  0001 L CNN "MPN"
 F 6 "Switches" H 6050 4500 60  0001 L CNN "Category"
 F 7 "Pushbutton Switches" H 6050 4600 60  0001 L CNN "Family"
@@ -55,9 +55,10 @@ L arduino_symbols:R_US R501
 U 1 1 5F0D522D
 P 6450 3600
 F 0 "R501" H 6518 3646 50  0000 L CNN
-F 1 "R_US" H 6518 3555 50  0000 L CNN
+F 1 "1k" H 6518 3555 50  0000 L CNN
 F 2 "Arduino Rev 2:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6490 3590 50  0001 C CNN
 F 3 "~" H 6450 3600 50  0001 C CNN
+F 4 "ESR03EZPJ102" H 6450 3600 50  0001 C CNN "Digikey"
 	1    6450 3600
 	1    0    0    -1  
 $EndComp

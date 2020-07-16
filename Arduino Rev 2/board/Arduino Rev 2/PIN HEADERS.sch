@@ -21,6 +21,7 @@ F 0 "J601" H 4128 3326 50  0000 L CNN
 F 1 "Conn_01x12_Female" H 4128 3235 50  0000 L CNN
 F 2 "Arduino Rev 2:PinSocket_1x13_P2.54mm_Vertical" H 4100 3350 50  0001 C CNN
 F 3 "~" H 4100 3350 50  0001 C CNN
+F 4 "SSW-113-01-T-S-LL" H 4100 3350 50  0001 C CNN "Digikey"
 	1    4100 3350
 	1    0    0    -1  
 $EndComp
@@ -80,6 +81,7 @@ F 0 "J602" H 6478 3326 50  0000 L CNN
 F 1 "Conn_01x12_Female" H 6478 3235 50  0000 L CNN
 F 2 "Arduino Rev 2:PinSocket_1x13_P2.54mm_Vertical" H 6450 3350 50  0001 C CNN
 F 3 "~" H 6450 3350 50  0001 C CNN
+F 4 "SSW-113-01-T-S-LL" H 6450 3350 50  0001 C CNN "Digikey"
 	1    6450 3350
 	1    0    0    -1  
 $EndComp
