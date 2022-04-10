@@ -420,12 +420,16 @@
       "Power Supply"
     ],
     [
-      "8dcceed3-d8e0-485b-aeec-eb173f9a80a1",
-      "Rectifier "
-    ],
-    [
       "2dd03991-d188-4fc1-827d-8c78a02b1e33",
       "Shift Registers"
+    ],
+    [
+      "5cd16da4-e618-43c4-b383-b5cc3d0967ec",
+      "Microcontroller"
+    ],
+    [
+      "2d6ba7e3-0697-4cb0-9be8-f585776c6780",
+      "Tubes"
     ]
   ],
   "text_variables": {}
