@@ -1210,12 +1210,25 @@
     )
   )
 
+  (sheet (at 24.13 70.485) (size 34.925 19.685) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7c18b937-ca7b-4a8e-814f-b4e20058c69b)
+    (property "Sheet name" "LEDS" (id 0) (at 24.13 69.7734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "LEDS.kicad_sch" (id 1) (at 24.13 90.7546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/4c0a6173-3bb5-488a-ae98-333b4befcac8" (page "2"))
     (path "/2dd03991-d188-4fc1-827d-8c78a02b1e33" (page "4"))
     (path "/5cd16da4-e618-43c4-b383-b5cc3d0967ec" (page "5"))
     (path "/2d6ba7e3-0697-4cb0-9be8-f585776c6780" (page "5"))
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b" (page "6"))
   )
 
   (symbol_instances
@@ -1450,6 +1463,42 @@
     (path "/2d6ba7e3-0697-4cb0-9be8-f585776c6780/25af901e-ff48-4c4f-ae81-9442a10f0634"
       (reference "#PWR074") (unit 1) (value "VDC") (footprint "")
     )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/d56efe5f-34c3-4321-a406-c700d177cf6e"
+      (reference "#PWR075") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/2749e17a-f156-44ff-8d7f-2806762d6379"
+      (reference "#PWR076") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/de9bc619-c4df-411e-932d-bcd4e88ff07f"
+      (reference "#PWR077") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/a974e56b-6bdf-4012-94ec-89ee905530b7"
+      (reference "#PWR078") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/18314eb2-fd29-4b16-9178-dce60e70d0c3"
+      (reference "#PWR079") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/1bd63f2f-ea58-49a5-bdb9-19e3a342ddfa"
+      (reference "#PWR080") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/0e0602f4-ac67-486b-8080-6f6a71bcaa27"
+      (reference "#PWR081") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/24e2c8dc-d1ec-4b3c-8f5d-17d6f9178996"
+      (reference "#PWR082") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/b4ecea00-1db5-44fe-9fe0-3b6f531d359b"
+      (reference "#PWR083") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/67a742f7-2770-4469-98d0-1f2d515cec07"
+      (reference "#PWR084") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/b3958deb-4115-4237-9e2e-c6cf500ce3a4"
+      (reference "#PWR085") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/50fffb15-925c-472d-9964-315330e5bc38"
+      (reference "#PWR086") (unit 1) (value "GND") (footprint "")
+    )
     (path "/4c0a6173-3bb5-488a-ae98-333b4befcac8/501e031b-1e2a-414e-991e-bb05f5921dbc"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
     )
@@ -1510,6 +1559,36 @@
     (path "/4c0a6173-3bb5-488a-ae98-333b4befcac8/a8629a95-90a3-485b-a2b5-c585b7411ae2"
       (reference "D2") (unit 1) (value "BAV21") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/741d7623-cf63-4dae-a654-2b503453e65e"
+      (reference "D3") (unit 1) (value "LED_RGB") (footprint "CLY6D-FKC-CK1N1D1BB7D3D3:CLY6D-FKC-CK1N1D1BB7D3D3")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/660ae773-4812-4bf2-b735-1635c5e0c0b3"
+      (reference "D4") (unit 1) (value "LED_RGB") (footprint "CLY6D-FKC-CK1N1D1BB7D3D3:CLY6D-FKC-CK1N1D1BB7D3D3")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/165a8d59-db7c-455b-a822-c194b8892552"
+      (reference "D5") (unit 1) (value "LED_RGB") (footprint "CLY6D-FKC-CK1N1D1BB7D3D3:CLY6D-FKC-CK1N1D1BB7D3D3")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/79733a0f-949f-4b59-bad7-0eccf626ec52"
+      (reference "D6") (unit 1) (value "LED_RGB") (footprint "CLY6D-FKC-CK1N1D1BB7D3D3:CLY6D-FKC-CK1N1D1BB7D3D3")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/2bc028ef-6bd8-432b-87de-1ae01e491006"
+      (reference "D7") (unit 1) (value "LED_RGB") (footprint "CLY6D-FKC-CK1N1D1BB7D3D3:CLY6D-FKC-CK1N1D1BB7D3D3")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/f2e6fa7e-5232-430f-b3a6-3aee2dd7138b"
+      (reference "D8") (unit 1) (value "LED_RGB") (footprint "CLY6D-FKC-CK1N1D1BB7D3D3:CLY6D-FKC-CK1N1D1BB7D3D3")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/6b4fb8df-f2b2-4c33-863e-aa7d186bda22"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/f94802d7-b31d-4d1a-be98-fc6a42c4b2a4"
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/25a83e32-6d89-49ed-96ee-3270767769d9"
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/2f1440fe-b315-45a3-8005-f3762d97f9b3"
+      (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_4.3mm_M4")
+    )
     (path "/4c0a6173-3bb5-488a-ae98-333b4befcac8/b75e6d15-4d7a-4aec-ab57-dc77af04a9b9"
       (reference "J1") (unit 1) (value "PJ-202A") (footprint "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A")
     )
@@ -1523,7 +1602,7 @@
       (reference "NE2") (unit 1) (value "Lamp_Neon") (footprint "LED_THT:LED_D5.0mm_Clear")
     )
     (path "/4c0a6173-3bb5-488a-ae98-333b4befcac8/c9f3ebbe-eccc-4121-ad6d-5923dc41f2d2"
-      (reference "Q1") (unit 1) (value "MPSA55") (footprint "MPSA55:TO92127P520H787-3")
+      (reference "Q1") (unit 1) (value "MPSA55") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/4c0a6173-3bb5-488a-ae98-333b4befcac8/46107e03-7b11-452f-8c51-f0b79c86cd35"
       (reference "R1") (unit 1) (value "0.5") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal")
@@ -1587,6 +1666,33 @@
     )
     (path "/2d6ba7e3-0697-4cb0-9be8-f585776c6780/c2dbe4e1-5457-44e8-9d23-a6e81f61bd2c"
       (reference "R21") (unit 1) (value "14k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/2e0e39d4-7584-4cdd-8749-f86fe65ad280"
+      (reference "R22") (unit 1) (value "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/c0608093-49f2-4e45-88c6-91d1f34036a0"
+      (reference "R23") (unit 1) (value "110") (footprint "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/d450a081-e748-4967-bdd7-7d5dcd4217c6"
+      (reference "R24") (unit 1) (value "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/59447725-3768-4d52-b642-e426f03b277a"
+      (reference "R25") (unit 1) (value "150") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/87150481-8afc-42c1-a281-e8c8f5a861ca"
+      (reference "R26") (unit 1) (value "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/1b9d866c-7fe6-47ba-9ec0-8145608fccd9"
+      (reference "R27") (unit 1) (value "150") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/05919a82-f89e-4ffe-b4f5-999349525613"
+      (reference "RV1") (unit 1) (value "10K") (footprint "WH148:WH148")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/61b01b10-88cf-427d-abab-2f7cd7870871"
+      (reference "RV2") (unit 1) (value "10K") (footprint "WH148:WH148")
+    )
+    (path "/7c18b937-ca7b-4a8e-814f-b4e20058c69b/0575a02d-3fd9-4fbf-a282-8f7ab8b20a7e"
+      (reference "RV3") (unit 1) (value "10K") (footprint "WH148:WH148")
     )
     (path "/5cd16da4-e618-43c4-b383-b5cc3d0967ec/4a9e95d3-7761-4e6f-b896-f671783f571b"
       (reference "S1") (unit 1) (value "PEC11R-4215F-S0024") (footprint "digikey-footprints:Rotary_Encoder_Switched_PEC11R")

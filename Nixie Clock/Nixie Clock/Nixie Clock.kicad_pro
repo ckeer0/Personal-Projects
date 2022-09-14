@@ -430,6 +430,10 @@
     [
       "2d6ba7e3-0697-4cb0-9be8-f585776c6780",
       "Tubes"
+    ],
+    [
+      "7c18b937-ca7b-4a8e-814f-b4e20058c69b",
+      "LEDS"
     ]
   ],
   "text_variables": {}
