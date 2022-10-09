@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T20:55:14.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="290xQZmovrUwTdgnm65i" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-09T21:01:25.878Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ywHDzAKCu4LmRVfmp0nI" version="20.4.0" type="github" pages="3">
   <diagram id="FGIHhM6uJRYZFMUXgK0I" name="Use Case Diagram">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -299,13 +299,13 @@
             <mxPoint x="44" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GcwzXg_egJ11_gbcmacO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Egohbmkc5AnCBauSWd-J-2" target="0xczGouJ1fzE9m3Sw1a4-10">
+        <mxCell id="GcwzXg_egJ11_gbcmacO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Egohbmkc5AnCBauSWd-J-2" target="0xczGouJ1fzE9m3Sw1a4-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="128" y="130" as="targetPoint" />
+            <mxPoint x="440" y="335" as="targetPoint" />
             <Array as="points">
               <mxPoint x="128" y="270" />
               <mxPoint x="300" y="270" />
-              <mxPoint x="300" y="335" />
+              <mxPoint x="300" y="363" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -460,6 +460,19 @@
         </mxCell>
         <mxCell id="GcwzXg_egJ11_gbcmacO-1" value="Fire Pyro&amp;nbsp;&lt;br&gt;Channels" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="170" y="295" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hckK5PUDI3fcQos6fSQR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hckK5PUDI3fcQos6fSQR-1" target="0xczGouJ1fzE9m3Sw1a4-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399.99999999999955" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hckK5PUDI3fcQos6fSQR-3" value="GPS Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hckK5PUDI3fcQos6fSQR-2">
+          <mxGeometry x="-0.5566" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hckK5PUDI3fcQos6fSQR-1" value="GPS" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
